@@ -49,19 +49,19 @@ export default function Home() {
           </div>
           <h1 className="font-semibold text-3xl mt-8">Good Morning</h1>
           <div className="grid grid-cols-3 gap-4 mt-4">
-            <MusicAlbum>Celebridade</MusicAlbum>
-            <MusicAlbum>442</MusicAlbum>
-            <MusicAlbum>Vida Cara</MusicAlbum>
-            <MusicAlbum>Celebridade</MusicAlbum>
-            <MusicAlbum>442</MusicAlbum>
-            <MusicAlbum>Vida Cara</MusicAlbum>
+            <MusicAlbum src="/album.jpeg">Celebridade</MusicAlbum>
+            <MusicAlbum src="/442.jpg">442</MusicAlbum>
+            <MusicAlbum src="/Vida Cara.jpeg">Vida Cara</MusicAlbum>
+            <MusicAlbum src="/album.jpeg">Celebridade</MusicAlbum>
+            <MusicAlbum src="/442.jpg">442</MusicAlbum>
+            <MusicAlbum src="/Vida Cara.jpeg">Vida Cara</MusicAlbum>
           </div>
           <h2 className="font-semibold text-2xl mt-8">Made for Pedroo</h2>
-           <DailyMusic/>
+          <DailyMusic ImageSrc="/album.jpeg" />
           <h2 className="font-semibold text-2xl mt-8">The biggest hits of the moment</h2>
-          <DailyMusic/>
+          <DailyMusic ImageSrc="/442.jpg" />
           <h2 className="font-semibold text-2xl mt-8">Recently played</h2>
-          <DailyMusic/>
+          <DailyMusic ImageSrc="/Vida Cara.jpeg" />
         </main>
       </div>
       <footer className="bg-black border-none p-6 fixed bottom-0 w-full">

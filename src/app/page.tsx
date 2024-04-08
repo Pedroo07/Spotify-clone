@@ -32,6 +32,8 @@ export default function Home() {
             <div className="text-sm text-zinc-400 hover:text-zinc-100">❤</div>
             <div className="text-sm text-zinc-400 hover:text-zinc-100">Top Brasil</div>
             <div className="text-sm text-zinc-400 hover:text-zinc-100">Celebridade</div>
+            <div className="text-sm text-zinc-400 hover:text-zinc-100">Vida Cara</div>
+            <div className="text-sm text-zinc-400 hover:text-zinc-100">442</div>
           </nav>
         </aside>
         <main className="flex-1 p-6">
@@ -53,8 +55,15 @@ export default function Home() {
               </button>
             </a>
             <a className="bg-white/5 rounded overflow-hidden group  flex items-center gap-4 hover:bg-white/10">
-              <Image src="/album.jpeg" alt="capa do album celebridade" width={80} height={80} />
-              <strong>Celebridade</strong>
+              <Image src="/442.jpg" alt="capa do album 442" width={80} height={80} />
+              <strong>442</strong>
+              <button className="flex items-center justify-center ml-auto mr-8 h-10 w-10 rounded-full bg-green-500 text-black pl-1 invisible group-hover:visible">
+                <Play />
+              </button>
+            </a>
+            <a className="bg-white/5 rounded overflow-hidden group flex items-center gap-4 hover:bg-white/10">
+              <Image src="/images (1).jpeg" alt="capa do album vida cara" width={80} height={80} />
+              <strong>Vida Cara</strong>
               <button className="flex items-center justify-center ml-auto mr-8 h-10 w-10 rounded-full bg-green-500 text-black pl-1 invisible group-hover:visible">
                 <Play />
               </button>
@@ -66,23 +75,16 @@ export default function Home() {
                 <Play />
               </button>
             </a>
-            <a className="bg-white/5 rounded overflow-hidden group flex items-center gap-4 hover:bg-white/10">
-              <Image src="/album.jpeg" alt="capa do album celebridade" width={80} height={80} />
-              <strong>Celebridade</strong>
+            <a className="bg-white/5 rounded overflow-hidden group  flex items-center gap-4 hover:bg-white/10">
+              <Image src="/442.jpg" alt="capa do album 442" width={80} height={80} />
+              <strong>442</strong>
               <button className="flex items-center justify-center ml-auto mr-8 h-10 w-10 rounded-full bg-green-500 text-black pl-1 invisible group-hover:visible">
                 <Play />
               </button>
             </a>
             <a className="bg-white/5 rounded overflow-hidden group flex items-center gap-4 hover:bg-white/10">
-              <Image src="/album.jpeg" alt="capa do album celebridade" width={80} height={80} />
-              <strong>Celebridade</strong>
-              <button className="flex items-center justify-center ml-auto mr-8 h-10 w-10 rounded-full bg-green-500 text-black pl-1 invisible group-hover:visible">
-                <Play />
-              </button>
-            </a>
-            <a className="bg-white/5 rounded overflow-hidden group flex items-center gap-4 hover:bg-white/10">
-              <Image src="/album.jpeg" alt="capa do album celebridade" width={80} height={80} />
-              <strong>Celebridade</strong>
+              <Image src="/images (1).jpeg" alt="capa do album vida cara" width={80} height={80} />
+              <strong>Vida Cara</strong>
               <button className="flex items-center justify-center ml-auto mr-8 h-10 w-10 rounded-full bg-green-500 text-black pl-1 invisible group-hover:visible">
                 <Play />
               </button>
@@ -110,6 +112,54 @@ export default function Home() {
               <Image src="/album.jpeg" alt="capa do album celebridade" className="w-full" width={120} height={120} />
               <strong className="font-semibold">Daily mix 1</strong>
               <span className="text-sm text-zinc-400">Orochi,Kayblack, VEIGH ,VulgoFK and more</span>
+            </a>
+          </div>
+          <h2 className="font-semibold text-2xl mt-8">The biggest hits of the moment</h2>
+          <div className="grid grid-cols-5 mt-4 gap-4">
+            <a className="bg-white/5 p-2 rounded gap-2 flex flex-col hover:bg-white/10">
+              <Image src="/images (1).jpeg" alt="capa do album 442" className="w-full" width={120} height={120} />
+              <strong className="font-semibold">Daily mix 2</strong>
+              <span className="text-sm text-zinc-400">Orochi,Djonga,Ret,BK and more</span>
+            </a><a className="bg-white/5 p-3 rounded gap-2 flex flex-col hover:bg-white/10">
+              <Image src="/images (1).jpeg" alt="capa do album 442" className="w-full" width={120} height={120} />
+              <strong className="font-semibold">Daily mix 2</strong>
+              <span className="text-sm text-zinc-400">Orochi,Djonga,Ret,BK and more</span>
+            </a><a className="bg-white/5 p-2 rounded gap-2 flex flex-col hover:bg-white/10">
+              <Image src="/images (1).jpeg" alt="capa do album 442" className="w-full" width={120} height={120} />
+              <strong className="font-semibold">Daily mix 2</strong>
+              <span className="text-sm text-zinc-400">Orochi,Djonga,Ret,BK and more</span>
+            </a><a className="bg-white/5 p-2 rounded gap-2 flex flex-col hover:bg-white/10">
+              <Image src="/images (1).jpeg" alt="capa do album 442" className="w-full" width={120} height={120} />
+              <strong className="font-semibold">Daily mix 2</strong>
+              <span className="text-sm text-zinc-400">Orochi,Djonga,Ret,BK and more</span>
+            </a><a className="bg-white/5 p-2 rounded gap-2 flex flex-col hover:bg-white/10">
+              <Image src="/images (1).jpeg" alt="capa do album 442" className="w-full" width={120} height={120} />
+              <strong className="font-semibold">Daily mix 2</strong>
+              <span className="text-sm text-zinc-400">Orochi,Djonga,Ret,BK and more</span>
+            </a>
+          </div>
+          <h2 className="font-semibold text-2xl mt-8">Recently played</h2>
+          <div className="grid grid-cols-5 mt-4 gap-4">
+            <a className="bg-white/5 p-2 rounded gap-2 flex flex-col hover:bg-white/10">
+              <Image src="/442.jpg" alt="capa do album 442" className="w-full" width={120} height={120} />
+              <strong className="font-semibold">Daily mix 3</strong>
+              <span className="text-sm text-zinc-400">Orochi,Kayblack, VEIGH ,VulgoFK and more</span>
+            </a><a className="bg-white/5 p-3 rounded gap-2 flex flex-col hover:bg-white/10">
+              <Image src="/442.jpg" alt="capa do album 442" className="w-full" width={120} height={120} />
+              <strong className="font-semibold">Daily mix 3</strong>
+              <span className="text-sm text-zinc-400">Orochi,Kayblack, VEIGH ,VulgoFK and more</span>
+            </a><a className="bg-white/5 p-2 rounded gap-2 flex flex-col hover:bg-white/10">
+              <Image src="/442.jpg" alt="capa do album 442" className="w-full" width={120} height={120} />
+              <strong className="font-semibold">Daily mix 3</strong>
+              <span className="text-sm text-zinc-400">Orochi,Kayblack, VEIGH ,VulgoFK and more</span>
+            </a><a className="bg-white/5 p-2 rounded gap-2 flex flex-col hover:bg-white/10">
+              <Image src="/442.jpg" alt="capa do album 442" className="w-full" width={120} height={120} />
+              <strong className="font-semibold">Daily mix 3</strong>
+              <span className="text-sm text-zinc-400">Orochi,Kayblack, VEIGH ,VulgoFK and more</span>
+            </a><a className="bg-white/5 p-2 rounded gap-2 flex flex-col hover:bg-white/10">
+              <Image src="/442.jpg" alt="capa do album 442" className="w-full" width={120} height={120} />
+              <strong className="font-semibold">Daily mix 3</strong>
+              <span className="text-sm text-zinc-400">Orochi,BIN,Oruam,Chefin and more</span>
             </a>
           </div>
         </main>

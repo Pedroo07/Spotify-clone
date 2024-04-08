@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Spotify",
+  title: "Spotify-clone",
   description: "listen to music.",
 };
 

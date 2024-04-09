@@ -19,7 +19,7 @@ export const DailyMusic: React.FC<Props> = ({ ImageSrc }) => {
 const DailyItem: React.FC<ItemProps> = ({ src, children }) => {
     return (
         <a className="bg-white/5 p-2 rounded gap-2 flex flex-col hover:bg-white/10">
-            <Image src={src ?? ''} alt="capa do album celebridade" className="w-full" width={120} height={120} />
+            <Image src={src ?? ''} alt="capa do album do orochi" className="w-full" width={120} height={120} />
             <strong className="font-semibold">{children}</strong>
             <span className="text-sm text-zinc-400">Orochi,Kayblack, VEIGH ,VulgoFK and more</span>
         </a>

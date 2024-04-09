@@ -67,7 +67,7 @@ export default function Home() {
       <footer className="bg-black border-none p-6 fixed bottom-0 w-full">
         <div className="flex justify-between">
           <div className="flex gap-3 items-center">
-            <Image src="/album.jpeg" alt="capa do album celebridade" className="rounded-t-sm" width={60} height={60} />
+            <Image src="/Spotify-clone/album.jpeg" alt="capa do album celebridade" className="rounded-t-sm" width={60} height={60} />
             <div className="flex flex-col">
               <strong className="font-semibold hover:underline">Celebridade</strong>
               <span className="text-zinc-400 text-sm ">Orochi</span>
